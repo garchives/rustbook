@@ -1,0 +1,27 @@
+
+[book]
+title = "《Rustbook》"
+description = "Rust book"
+authors = ["Jinsyin"]
+multilingual = false
+src = "src"
+
+[output.html]
+mathjax-support = false
+theme = "theme"
+additional-css = ["theme/custom.css", "theme/hljs.css"]
+additional-js = []
+git-repository-url = "https://github.com/jinsyin/rustbook"
+git-repository-icon = "fa-github"
+
+[output.html.playpen]
+editable = false
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
